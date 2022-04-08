@@ -1,0 +1,29 @@
+import platform
+print("Live info 1.0")
+print("--------------------------------")
+#
+machine=platform.machine()                        
+print("Machine:",machine)
+#
+architecture=platform.architecture()      
+print("Architecture:",architecture)
+#
+processor=platform.processor()
+print("Processor:",processor)
+#
+node=platform.node()
+print("Node:",node)
+#
+sys=platform.system()
+print("System:",sys)
+#
+release=platform.release()
+print("Kernel:",release)
+#
+#platform=platform.platform()
+#print("Platform:",platform)
+#
+py=platform.python_build()
+print("Python-buld:",py)
+comp=platform.python_compiler()
+print("python-compiler:",comp)
