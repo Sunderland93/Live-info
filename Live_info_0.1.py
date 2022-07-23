@@ -1,6 +1,6 @@
 import platform
 print("""
-Live info 1.0
+Live info 0.1
 -------------
 Machine: %s 
 Architecture: %s  
