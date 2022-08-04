@@ -62,7 +62,7 @@ __      _(_)_ __ |___ /___ \
                       """)
 
     
-    if platform.system()=="Mac Os":
+    if platform.system()=="MacOs":
         print("""
 
     __  ___              ____      
