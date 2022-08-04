@@ -12,7 +12,7 @@
 #2.Linux
 #3.Darwin
 #4.Unix
-#########################################################################
+#
 #EN:What's new?
 #-> the appearance of logos for each operating system
 
