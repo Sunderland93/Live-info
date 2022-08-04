@@ -4,7 +4,6 @@ def info ():
     print("""
 Live info 0.2
 -------------
-Machine: %s 
 Architecture: %s  
 Processor: %s 
 Node: %s  
@@ -15,7 +14,6 @@ Python-compiler: %s
 
 """ % (
     platform.machine(),
-    platform.architecture(),
     platform.processor(),
     platform.node(),
     platform.system(),
@@ -62,16 +60,15 @@ __      _(_)_ __ |___ /___ \
                       """)
 
     
-    if platform.system()=="MacOs":
+    if platform.system()=="Darwin":
         print("""
-
-    __  ___              ____      
-   /  |/  /___ ______   / __ \_____
-  / /|_/ / __ `/ ___/  / / / / ___/
- / /  / / /_/ / /__   / /_/ (__  ) 
-/_/  /_/\__,_/\___/   \____/____/  
-                                   
-                                 
+______                    _       
+|  _  \                  (_)      
+| | | |__ _ _ ____      ___ _ __  
+| | | / _` | '__\ \ /\ / / | '_ \ 
+| |/ / (_| | |   \ V  V /| | | | |
+|___/ \__,_|_|    \_/\_/ |_|_| |_|
+                                    
                    """)
 
 logo()
