@@ -1,4 +1,5 @@
-#Live-info 0.2.1
+*Live-info 0.2.1
+-------------------------------------------------------------
 Live-info - a small python script that allows you to determine 
 information about the system and computer hardware.
 --------------------------------------------------------------
