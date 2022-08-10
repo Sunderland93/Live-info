@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 ***Live-info 0.2.0***
 =======
-***Live-info 0.2.1***
->>>>>>> a1e939bd7b34a3bb44c27cfce4dfdd5b32063529
-=====================
 Live-info - a small python script that allows you to determine 
 information about the system and computer hardware.
 --------------------------------------------------------------
@@ -22,7 +19,3 @@ information about the system and computer hardware.
 ### -> Py-cpuinfo
 #### Install module:
 ##### pip3 install py-cpuinfo
-<<<<<<< HEAD
-
-=======
->>>>>>> a1e939bd7b34a3bb44c27cfce4dfdd5b32063529
