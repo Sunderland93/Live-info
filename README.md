@@ -11,6 +11,6 @@ information about the system and computer hardware.
 ### -> Platform
 #### Install module:
 ##### pip3 install platform
-###### -> Py-cpuinfo
-###### Install module:
-###### pip3 install py-cpuinfo
+### -> Py-cpuinfo
+#### Install module:
+##### pip3 install py-cpuinfo
