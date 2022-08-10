@@ -1,7 +1,7 @@
 **Live-info 0.2.1**
 -------------------------------------------------------------
-Live-info - a small python script that allows you to determine 
-information about the system and computer hardware.
+#Live-info - a small python script that allows you to determine 
+##information about the system and computer hardware.
 --------------------------------------------------------------
 What's new:
 1.fixed incorrect display of the Darwin logo.
