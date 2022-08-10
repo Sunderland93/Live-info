@@ -1,14 +1,16 @@
 import platform
+import cpuinfo
 
 def info ():
     print("""
-Live info 0.2
+Live info 0.2.1
 -------------
 Architecture: %s  
 Processor: %s 
 Node: %s  
 System: %s 
-Kernel: %s 
+Kernel: %s
+CPU: %s
 Python-build: %s 
 Python-compiler: %s
 
@@ -18,6 +20,7 @@ Python-compiler: %s
     platform.node(),
     platform.system(),
     platform.release(),
+    cpuinfo.get_cpu_info()['brand_raw'],
     platform.python_build(),
     platform.python_compiler(),
 
@@ -72,3 +75,25 @@ ______                    _
                    """)
 
 logo()
+
+
+
+
+
+
+
+
+    
+ 
+    
+    
+    
+
+
+
+
+    
+
+    
+    
+    
