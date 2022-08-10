@@ -9,7 +9,6 @@ information about the system and computer hardware.
 ---------------------------------------------------------------
 # Modules that are used in Live info 0.2.0 and their installation:
 =======
-# Modules that are used in Live info 0.2.1 and their installation:
 ### -> Platform
 #### Install module:
 ##### pip3 install platform
