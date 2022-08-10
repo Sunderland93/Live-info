@@ -8,7 +8,6 @@ information about the system and computer hardware.
 ### 2.The appearance of a new item CPU.
 ---------------------------------------------------------------
 # Modules that are used in Live info 0.2.0 and their installation:
-=======
 ### -> Platform
 #### Install module:
 ##### pip3 install platform
