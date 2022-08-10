@@ -3,7 +3,7 @@ import cpuinfo
 
 def info ():
     print("""
-Live info 0.2.1
+Live info 0.2.0
 -------------
 Architecture: %s  
 Processor: %s 
@@ -12,7 +12,8 @@ System: %s
 Kernel: %s
 CPU: %s
 Python-build: %s 
-Python-compiler: %s
+Python-compiler
+: %s
 
 """ % (
     platform.machine(),
