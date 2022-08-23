@@ -1,18 +1,18 @@
 import platform
 import cpuinfo
-
+#info
 def info ():
-    print("""
-Live info 0.2.1
--------------
-Architecture: %s  
+    print("""                 
+Live info 0.2.2                          
+-------------                              
+Architecture: %s            
 Processor: %s 
 Node: %s  
 System: %s 
 Kernel: %s
 CPU: %s
 Python-build: %s 
-Python-compiler: %s
+Python-compiler: %s     
 
 """ % (
     platform.machine(),
@@ -27,8 +27,7 @@ Python-compiler: %s
 ))
     
 info()
-
-
+#logo
 def logo ():
     if platform.system()=="Linux":
         print ("""
@@ -74,4 +73,38 @@ ______                    _
                                     
                    """)
 
+    if platform.system()=="Java":
+        print("""
+   ___                  
+  |_  |                 
+    | | __ ___   ____ _ 
+    | |/ _` \ \ / / _` |
+/\__/ / (_| |\ V / (_| |
+\____/ \__,_| \_/ \__,_|
+                        
+                        """)
+
 logo()
+
+
+
+
+
+
+
+
+
+    
+ 
+    
+    
+    
+
+
+
+
+    
+
+    
+    
+    
